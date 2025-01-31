@@ -29,9 +29,9 @@ Click Add Identity Provider → SAML 2.0
 
 Configure SAML IdP settings:
 
-Issuer: Okta Org URL (e.g., https://yourcompany.okta.com)
+Issuer: Okta Org URL (e.g., https://org.okta.com)
 
-Single Sign-On (SSO) URL: https://yourcompany.okta.com/app/.../sso/saml
+Single Sign-On (SSO) URL: https://org.okta.com/app/.../sso/saml
 
 Audience URI (SP Entity ID): Provided by the Service Provider (SP)
 
@@ -63,7 +63,7 @@ Configure SAML Settings:
 
 Single Sign-On URL: Provided by the external IdP
 
-Audience URI (SP Entity ID): Okta’s entity ID (e.g., https://yourcompany.okta.com)
+Audience URI (SP Entity ID): Okta’s entity ID (e.g., https://org.okta.com)
 
 Name ID Format: Matches IdP settings (EmailAddress, Persistent)
 
@@ -113,9 +113,9 @@ Click Create App Integration → OIDC - Web Application
 
 Define App Settings:
 
-Sign-in Redirect URIs: https://reverse-proxy.yourcompany.com/callback
+Sign-in Redirect URIs: https://reverse-proxy.org.com/callback
 
-Sign-out Redirect URIs: https://reverse-proxy.yourcompany.com/logout
+Sign-out Redirect URIs: https://reverse-proxy.org.com/logout
 
 Assign users or groups who can access
 
@@ -137,7 +137,7 @@ Click Authorization Servers → Create Authorization Server
 
 Set Configuration:
 
-Audience: https://user-api.yourcompany.com
+Audience: https://user-api.org.com
 
 Scopes: read:user, manage:account
 
@@ -189,7 +189,7 @@ Define Server Settings:
 
 Name: M2M Internal API Server
 
-Audience: https://internal-api.yourcompany.com
+Audience: https://internal-api.org.com
 
 Create Custom Scopes:
 
