@@ -87,7 +87,7 @@ Define Authorization Server settings:
 
 Name: Primary Auth Server
 
-Audience: https://your-api.yourcompany.com
+Audience: https://your-api.org.com
 
 Create Scopes:
 
