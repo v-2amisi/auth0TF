@@ -209,9 +209,8 @@ Issue Client Credentials and test with internal services
 
 Conclusion
 
-This guide provides a detailed walkthrough for configuring Okta for various authentication and authorization use cases. Ensure that all configurations align with security best practices and compliance requirements for your organization.
+This guide provides a detailed walkthrough for configuring Okta for various authentication and authorization use cases. Ensure that all configurations align with security best practices and compliance requirements.
 
-For further information, visit the Okta Developer Documentation or reach out to Okta support.
 
 
 
